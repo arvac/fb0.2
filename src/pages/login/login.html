@@ -1,0 +1,37 @@
+<!--
+  Generated template for the LoginPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>login</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+<ion-list>
+	<ion-item text-center>
+		<img [src]="user.imagen">
+	</ion-item>
+	<ion-item text-center>
+		{{user.nombre}}
+	</ion-item>
+	<ion-item text-center>
+		{{user.email}}
+	</ion-item>
+	<ion-item text-center>
+		{{user.phone}}
+	</ion-item>
+	<ion-item text-center>
+		{{user.uid}}
+	</ion-item>
+	<ion-item text-center>
+		{{user.provider}}
+	</ion-item>
+</ion-list>
+</ion-content>
